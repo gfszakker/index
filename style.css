@@ -1,0 +1,91 @@
+body
+{
+    font-family: 'Indie Flower', cursive; 
+}
+.mainimage
+{
+   background:url("1.jpg") no-repeat center;  
+}
+.contactusimage
+{
+   background:url("2.jpg") no-repeat left; 
+}
+.aboutusimage
+{
+    background:url("https://cdn.shopify.com/s/files/1/0892/5840/products/ncs_infinity_1024x1024.jpg?v=1437734918") no-repeat center;
+}
+li
+{
+    background-image: url("21.jpg") ; 
+  text-align: center;
+    width: 200;
+background-size: cover;
+    transform: scale(1);
+    transition: all 3s;
+}
+
+li:hover
+{
+  transform: rotate3d(-10deg);
+     background-image: url(1.jpg);
+}
+header
+{
+   color: aqua;
+    text-align: center;
+   /* background-color: bisque;*/
+    
+    padding:100px 10px 100px 10px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h3
+{
+    background-color: skyblue;
+
+    
+    text-align: center;
+    color: white;
+}
+h3:hover
+{
+    background-color: red;
+    
+}
+
+h1
+{
+       font-size: 50px;
+    text-transform: uppercase;
+       text-shadow:3px 2px black;
+}
+nav
+{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+   background-color:gold;
+}
+a
+{
+  text-decoration: none;
+    color: snow;
+     padding: 40px;
+    font-size: 20px;
+       
+}
+a:hover
+{
+    color: aqua;
+}
+footer
+{
+     text-align: center;
+    background-color: crimson;
+    color: orange;
+}
+div
+{
+    color: fuchsia;
+}
